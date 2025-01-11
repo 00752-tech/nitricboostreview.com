@@ -1,7 +1,6 @@
 import Link from 'next/link'
-import { ArrowLeft, Home, Search } from 'lucide-react'
+import {  Home, Search } from 'lucide-react'
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -29,7 +28,7 @@ export default function NotFound() {
           </h1>
           
           <p className="text-xl text-muted-foreground max-w-lg mx-auto">
-            Sorry, we couldn't find the page you're looking for. Please check the URL or try navigating back to our homepage.
+           {` Sorry, we couldn't find the page you're looking for. Please check the URL or try navigating back to our homepage.`}
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">

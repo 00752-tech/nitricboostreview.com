@@ -1,6 +1,5 @@
 import BlogPostTemplate from '@/components/BlogPostTemplate'
-import Link from 'next/link'
-import Image from 'next/image'
+
 
 export const metadata = {
   title: 'Natural Ways to Boost Blood Flow: Expert Guide',

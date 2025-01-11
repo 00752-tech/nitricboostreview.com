@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
-import { ArrowRight, ChevronRight, Search, Facebook, Twitter, LinkedinIcon as LinkedIn } from 'lucide-react'
+import { ArrowRight, ChevronRight, Facebook, Twitter, LinkedinIcon as LinkedIn } from 'lucide-react'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"

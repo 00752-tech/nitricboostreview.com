@@ -6,7 +6,7 @@ export default function Disclaimer() {
       <h1 className="text-3xl font-bold mb-6">Disclaimer</h1>
       <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
       <p className="mb-4">
-        The information provided by NitricBoostReview.com ("we," "us," or "our") on https://www.nitricboostreview.com (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+      {`  The information provided by NitricBoostReview.com ("we," "us," or "our") on https://www.nitricboostreview.com (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.`}
       </p>
       <h2 className="text-2xl font-semibold mt-6 mb-4">1. Not Medical Advice</h2>
       <p className="mb-4">

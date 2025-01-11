@@ -85,7 +85,7 @@ export default function Benefits() {
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">L-Citrulline</td>
-                <td className="border border-gray-300 p-2">Enhances L-Arginine's effects, prolonging nitric oxide production</td>
+                <td className="border border-gray-300 p-2">{`Enhances L-Arginine's effects, prolonging nitric oxide production`}</td>
               </tr>
               <tr>
                 <td className="border border-gray-300 p-2">Maca Root</td>

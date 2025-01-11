@@ -36,7 +36,7 @@ export default function LArginineVascularHealth() {
 
           <h2>What is L-Arginine?</h2>
           <p>
-            L-Arginine is a conditionally essential amino acid, meaning that under certain circumstances, the body may not be able to produce enough of it. It's found in various foods and is also available as a dietary supplement. L-Arginine is particularly important for its role in the production of nitric oxide [1].
+           {` L-Arginine is a conditionally essential amino acid, meaning that under certain circumstances, the body may not be able to produce enough of it. It's found in various foods and is also available as a dietary supplement. L-Arginine is particularly important for its role in the production of nitric oxide [1].`}
           </p>
           <div className="my-8">
             <Image
@@ -89,7 +89,7 @@ export default function LArginineVascularHealth() {
 
           <h2>L-Arginine and Exercise Performance</h2>
           <p>
-            L-Arginine's role in nitric oxide production has made it a popular supplement among athletes and fitness enthusiasts. Improved blood flow can lead to:
+          {`  L-Arginine's role in nitric oxide production has made it a popular supplement among athletes and fitness enthusiasts. Improved blood flow can lead to:`}
           </p>
           <ul>
             <li>Better oxygen and nutrient delivery to muscles</li>
@@ -99,12 +99,12 @@ export default function LArginineVascularHealth() {
 
           <h2>L-Arginine and Erectile Function</h2>
           <p>
-            The vasodilatory effects of L-Arginine have also been studied in relation to erectile function. By improving blood flow, L-Arginine may help support healthy erectile function, which is why it's often included in supplements targeting this area of health [3].
+            {`The vasodilatory effects of L-Arginine have also been studied in relation to erectile function. By improving blood flow, L-Arginine may help support healthy erectile function, which is why it's often included in supplements targeting this area of health [3].`}
           </p>
 
           <h2>Considerations and Precautions</h2>
           <p>
-            While L-Arginine supplementation is generally considered safe for most people, it's important to consider:
+           {` While L-Arginine supplementation is generally considered safe for most people, it's important to consider:`}
           </p>
           <ul>
             <li>Potential interactions with certain medications, particularly those for high blood pressure or erectile dysfunction</li>
@@ -114,7 +114,7 @@ export default function LArginineVascularHealth() {
 
           <h2>Conclusion</h2>
           <p>
-            L-Arginine plays a vital role in vascular health through its contribution to nitric oxide production. Whether obtained through diet or supplementation, adequate L-Arginine levels can support cardiovascular wellness, exercise performance, and overall health. As with any supplement, it's crucial to approach L-Arginine use thoughtfully and under appropriate guidance.
+          {`  L-Arginine plays a vital role in vascular health through its contribution to nitric oxide production. Whether obtained through diet or supplementation, adequate L-Arginine levels can support cardiovascular wellness, exercise performance, and overall health. As with any supplement, it's crucial to approach L-Arginine use thoughtfully and under appropriate guidance`}.
           </p>
         </>
       }

@@ -6,7 +6,7 @@ export default function TermsOfService() {
       <h1 className="text-3xl font-bold mb-6">Terms of Service</h1>
       <p className="mb-4">Last updated: {new Date().toLocaleDateString()}</p>
       <p className="mb-4">
-        Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the https://www.nitricboostreview.com website (the "Service") operated by NitricBoostReview.com ("us", "we", or "our").
+       {` Please read these Terms of Service ("Terms", "Terms of Service") carefully before using the https://www.nitricboostreview.com website (the "Service") operated by NitricBoostReview.com ("us", "we", or "our").`}
       </p>
       <h2 className="text-2xl font-semibold mt-6 mb-4">1. Terms</h2>
       <p className="mb-4">
@@ -14,11 +14,11 @@ export default function TermsOfService() {
       </p>
       <h2 className="text-2xl font-semibold mt-6 mb-4">2. Use License</h2>
       <p className="mb-4">
-        Permission is granted to temporarily download one copy of the materials (information or software) on NitricBoostReview.com's website for personal, non-commercial transitory viewing only.
+      {`  Permission is granted to temporarily download one copy of the materials (information or software) on NitricBoostReview.com's website for personal, non-commercial transitory viewing only.`}
       </p>
       <h2 className="text-2xl font-semibold mt-6 mb-4">3. Disclaimer</h2>
       <p className="mb-4">
-        The materials on NitricBoostReview.com's website are provided on an 'as is' basis. NitricBoostReview.com makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+        {`The materials on NitricBoostReview.com's website are provided on an 'as is' basis. NitricBoostReview.com makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.`}
       </p>
       <h2 className="text-2xl font-semibold mt-6 mb-4">Contact Us</h2>
       <p className="mb-4">
