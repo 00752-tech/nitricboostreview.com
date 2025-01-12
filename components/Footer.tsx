@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react'
+import Link from "next/link";
+import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,29 +9,49 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-lg font-semibold mb-4">About Us</h3>
             <p className="text-sm">
-              Nitric Boost Ultra is dedicated to providing high-quality supplements to enhance your performance and overall well-being.
+              Nitric Boost Ultra is dedicated to providing high-quality
+              supplements to enhance your performance and overall well-being.
             </p>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
-              <li><Link href="/products" className="hover:text-white transition-colors">Products</Link></li>
-              <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
-              <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+              <li>
+                <Link href="/" className="hover:text-white transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-white transition-colors"
+                >
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Customer Service</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">
+              Customer Service
+            </h3>
             <ul className="space-y-2">
-              <li><Link href="/faq" className="hover:text-white transition-colors">FAQ</Link></li>
-              <li><Link href="/shipping" className="hover:text-white transition-colors">Shipping</Link></li>
-              <li><Link href="/returns" className="hover:text-white transition-colors">Returns</Link></li>
-              <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li>
+                <Link
+                  href="/privacy"
+                  className="hover:text-white transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Connect With Us</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">
+              Connect With Us
+            </h3>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-white transition-colors">
                 <Facebook className="w-6 h-6" />
@@ -50,11 +70,11 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Nitric Boost Ultra. All rights reserved.
+            &copy; {new Date().getFullYear()} Nitric Boost Ultra. All rights
+            reserved.
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
